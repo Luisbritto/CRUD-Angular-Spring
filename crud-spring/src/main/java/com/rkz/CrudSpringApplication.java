@@ -1,6 +1,5 @@
 package com.rkz;
 
-import java.io.Console;
 
 import com.rkz.model.Course;
 import com.rkz.repository.CourseRepository;

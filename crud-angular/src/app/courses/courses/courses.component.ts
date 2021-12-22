@@ -12,7 +12,7 @@ import { MatDialog } from '@angular/material/dialog';
   templateUrl: './courses.component.html',
   styleUrls: ['./courses.component.scss']
 })
-export class CoursesComponent implements OnInit {
+export class CoursesComponent{
 
   courses$: Observable<Course[]>;
   displayedColumns = ['name','category'];
@@ -36,8 +36,5 @@ export class CoursesComponent implements OnInit {
 
 
 
-  ngOnInit(): void {
-
-  }
 
 }

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api/courses")
 @AllArgsConstructor
 public class CourseController {
 
